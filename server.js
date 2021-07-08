@@ -42,7 +42,11 @@ io.on('disconnect', (evt) => {
     log('some people left')
 })
 
+function onConnection(socket){
+  socket.on('drawing', (data) => socket.broadcast.emit('drawing', data));
+}
 
+io.on('connection', onConnection);
 
 
 

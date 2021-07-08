@@ -9,8 +9,8 @@ body{
 }
 
 video {
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     object-fit: cover;
 }
 
@@ -165,4 +165,47 @@ video {
     background-color: #1f162e;
     color: white;
   }
+
   
+
+
+
+
+
+
+
+/**
+ * Fix user-agent
+ */
+
+
+
+  /**
+   * Canvas
+   */
+  
+  .whiteboard {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  
+  .colors {
+    position: fixed;
+  }
+  
+  .color {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+  }
+  
+  .color.black { background-color: black; }
+  .color.red { background-color: red; }
+  .color.green { background-color: green; }
+  .color.blue { background-color: blue; }
+  .color.yellow { background-color: yellow; }

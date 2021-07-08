@@ -79,12 +79,23 @@
         </div>
         <div class = "main__right">
             <div>
-                <textarea rows="30" cols="50" id="editor" style="background-color:#1f162e ;color:white" placeholder="Start Coding Collaboration..."></textarea>
+                <textarea rows="15" cols="50" id="editor" style="background-color:#1f162e ;color:white" placeholder="Start Coding Collaboration..."></textarea>
+            </div>
+            <div>
+                <canvas class="whiteboard" ></canvas>
+                <div class="colors">
+                <div class="color black"></div>
+                <div class="color red"></div>
+                <div class="color green"></div>
+                <div class="color blue"></div>
+                <div class="color yellow"></div>
             </div>
         </div>
     </div>
     <script src="../node_modules/socket.io-client/dist/socket.io.js"></script>
     <script src="script.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="draw.js"></script>
     <script>
         // Get the modal
         var modal = document.getElementById("myModal");
