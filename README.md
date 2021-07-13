@@ -9,3 +9,5 @@ College: Indian Institute of Technology(IIT) Mandi <br />
 
 
 This project is a fully functional prototype clone of Microsoft Teams. This app lets you connect with 2 or more people and have video and audio chat. In addition to this, there are several other features such as text chat, live share for text/code editing, mute/unmute option, switch on/off video and live whiteboard. 
+
+Hosted At: https://polar-savannah-23227.herokuapp.com/
